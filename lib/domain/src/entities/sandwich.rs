@@ -13,7 +13,7 @@ pub struct Sandwich {
 }
 
 impl Sandwich {
-    fn new(
+    pub fn new(
         id: String,
         name: String,
         ingredients: Vec<String>,
