@@ -1,4 +1,4 @@
-workspace = { members = ["lib/application", "lib/domain"] }
+workspace = { members = ["lib/application", "lib/domain", "lib/framework"] }
 [package]
 name = "sandwich-recipes"
 version = "0.1.0"

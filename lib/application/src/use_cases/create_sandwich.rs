@@ -3,6 +3,8 @@ use domain::entities::{value_objects::SandwichType, Sandwich};
 #[derive(Debug)]
 pub enum CreateError {
     InvalidData(String),
+    Conflict(String),
+    Unknown(String),
 }
 
 pub fn create_sandwich<'a>(
