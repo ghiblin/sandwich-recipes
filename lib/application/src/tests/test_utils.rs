@@ -1,6 +1,6 @@
 #[cfg(test)]
 pub mod shared {
-    use crate::{entities::Sandwich, value_objects::SandwichType};
+    use domain::entities::{value_objects::SandwichType, Sandwich};
 
     pub const SANDWICH_ID: &str = "sand-id";
     pub const SANDWICH_NAME: &str = "Hot dog";

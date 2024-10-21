@@ -1,4 +1,4 @@
-use crate::entities::Sandwich;
+use domain::entities::Sandwich;
 
 #[derive(Debug)]
 pub enum FindAllError {

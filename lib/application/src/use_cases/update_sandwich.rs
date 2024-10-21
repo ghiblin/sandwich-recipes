@@ -1,4 +1,4 @@
-use crate::{entities::Sandwich, value_objects::SandwichType};
+use domain::entities::{value_objects::SandwichType, Sandwich};
 
 #[derive(Debug)]
 pub enum UpdateError {

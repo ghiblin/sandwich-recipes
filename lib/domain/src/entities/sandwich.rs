@@ -2,7 +2,7 @@ use core::fmt;
 
 use serde::{Deserialize, Serialize};
 
-use crate::value_objects::{SandwichId, SandwichIngredients, SandwichName, SandwichType};
+use super::value_objects::{SandwichId, SandwichIngredients, SandwichName, SandwichType};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Sandwich {
